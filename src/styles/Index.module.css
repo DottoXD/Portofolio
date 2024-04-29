@@ -1,0 +1,42 @@
+#main {
+  margin-top: 20rem;
+  transform: translateY(-8rem);
+  animation: up 2s;
+}
+
+.special {
+  color: var(--color-yellow);
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  color: var(--color-secondary);
+  font-size: 40rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 6rem;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-8rem);
+  }
+}
