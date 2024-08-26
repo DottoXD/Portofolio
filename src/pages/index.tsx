@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Index from "@/styles/Index.module.css";
 
+import { FaBook, FaMicroblog } from "react-icons/fa";
+
 export default function IndexPage() {
   return (
     <>
@@ -17,9 +19,11 @@ export default function IndexPage() {
           <p className={ Index.paragraph }>I'm a <span className={ Index.special }>frontend</span> & <span className={ Index.special }>backend</span> developer from 🇮🇹.</p>
           <div id={ Index.cards }>
             <div className={ Index.card }>
-              jpizza
+              <FaBook/> Projects
             </div>
-            <div className={ Index.card }></div>
+            <div className={ Index.card }>
+              <FaMicroblog/> Blog
+            </div>
           </div>
         </div>
       </main>

@@ -1,7 +1,37 @@
 #main {
-  margin-top: 20rem;
+  margin-top: 22rem;
   transform: translateY(-8rem);
   animation: up 2s;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 10rem;
+  height: 5rem;
+  background: var(--color-secondary);
+  color: var(--color-text);
+  text-align: center;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 1.4rem;
+  font-size: 1.1rem;
+  border: 0.2rem solid var(--color-text);
+  cursor: pointer;
+  transition: var(--transition-time);
+}
+
+.card svg {
+  vertical-align: middle;
+}
+
+.card:hover {
+  border: 0.2rem solid var(--color-yellow);
+  color: var(--color-yellow);
+  transition: var(--transition-time);
 }
 
 .special {
@@ -12,7 +42,7 @@
   position: absolute;
   z-index: -1;
   color: var(--color-secondary);
-  font-size: 40rem;
+  font-size: 33.2vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

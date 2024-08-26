@@ -4,6 +4,7 @@
   --color-text: #dbd2d2;
   --color-yellow: #e5e574;
   --font-default: "Poppins", sans-serif;
+  --transition-time: 0.5s;
 }
 
 @font-face {
@@ -20,6 +21,7 @@
 body {
   background: var(--color-background);
   font-family: var(--font-default);
+  cursor: default;
 }
 
 h1, h2, h3, h4, h5, h6, p {
