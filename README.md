@@ -1,34 +1,29 @@
-## Usage
+## About
+A simple [Solid.js](https://www.solidjs.com/) blog & portofolio.
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+### Credits
+- [React Icons](https://react-icons.github.io/react-icons/search/)
+- [Hero Patterns](https://heropatterns.com/)
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
-
+## Self hosting
+First of all you have to install [NodeJS](https://nodejs.org/) - i do recommend NodeJS 20.
+After that install the project's dependencies using the following command:
 ```bash
-$ npm install # or pnpm install or yarn install
+npm  i
 ```
+You can then build the project & start hosting it on port 4137 using the following commands:
+```bash
+npm run build
+npm run serve
+```
+You can alternatively use any static host such as [Cloudflare Pages](https://pages.cloudflare.com/) or [GitHub pages](https://pages.github.com/).
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+## License
+Copyright (C) 2023-2025 DottoXD
 
-## Available Scripts
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-In the project directory, you can run:
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-### `npm run dev` or `npm start`
+You should have received a copy of the GNU General Public License along with this program. If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
