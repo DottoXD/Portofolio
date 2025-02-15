@@ -2,7 +2,10 @@ import { Route, Router } from "@solidjs/router";
 import { render } from "solid-js/web";
 
 import "./index.css";
+
 import Index from "./routes/Index";
+import NotFound from "./routes/404";
+
 import FooterComponent from "./components/footer";
 import NewsComponent from "./components/news";
 
@@ -20,6 +23,7 @@ render(
       <NewsComponent />
       <Router>
         <Route path="/" component={Index} />
+        <Route path="*404" component={NotFound} />
       </Router>
       <FooterComponent />
     </div>

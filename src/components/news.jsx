@@ -5,11 +5,10 @@ function NewsComponent() {
   return (
     <div id={News.main}>
       <p>
-        <IoIosWarning /> This website is WIP - please report bugs{" "}
-        <a href="https://github.com/DottoXD/Portofolio" target="_blank">
-          here
+        <IoIosWarning /> This website is WIP -
+        <a href="https://github.com/DottoXD/Portofolio" target="_blank" >
+          found a bug?
         </a>
-        .
       </p>
     </div>
   );

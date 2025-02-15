@@ -1,7 +1,7 @@
 import { FaBook, FaMicroblog } from "react-icons/fa";
-import Style from "../styles/Index.module.css";
+import Style from "../styles/Blog.module.css";
 
-function Index() {
+function Blog() {
   return (
     <div class={Style.App}>
       <h1 className={Style.background}>Dotto</h1>
@@ -26,4 +26,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default Blog;
